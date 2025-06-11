@@ -2,8 +2,9 @@
   "mcpServers": {
     "echo": {
       "command": "node",
-      "args": ["build/index.js"],
-      "cwd": "/Users/mauriciomeirelles/mcp-echo"
+      "args": ["/Users/mauriciomeirelles/mcp-echo/build/index.js"],
+      "cwd": "/Users/mauriciomeirelles/mcp-echo",
+      "env": {}
     }
   }
 } 
