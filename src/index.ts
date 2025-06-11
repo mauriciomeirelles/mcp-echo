@@ -40,7 +40,7 @@ class EchoServer {
       return {
         tools: [
           {
-            name: 'echo',
+            name: 'echo_tool',
             description: 'Echo the provided text with "echo" prefixed to it',
             inputSchema: {
               type: 'object',
@@ -60,7 +60,7 @@ class EchoServer {
     this.server.setRequestHandler(CallToolRequestSchema, async (request) => {
       const { name, arguments: args } = request.params;
 
-      if (name === 'echo') {
+      if (name === 'echo_tool') {
         const text = args?.text as string;
         if (!text) {
           throw new Error('Text parameter is required');
