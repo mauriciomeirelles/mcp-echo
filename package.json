@@ -4,6 +4,9 @@
   "description": "An MCP server that provides an echo tool that returns text prefixed with 'echo'",
   "main": "build/index.js",
   "type": "module",
+  "bin": {
+    "mcp-echo": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",

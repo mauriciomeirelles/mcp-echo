@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "echo": {
+      "command": "node",
+      "args": ["build/index.js"],
+      "cwd": "/Users/mauriciomeirelles/mcp-echo"
+    }
+  }
+} 

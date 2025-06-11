@@ -10,6 +10,8 @@ A Model Context Protocol (MCP) server that provides an echo tool. This tool take
 
 ## Installation
 
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=echo&config=eyJjb21tYW5kIjoibm9kZSBidWlsZC9pbmRleC5qcyIsImN3ZCI6Ii9Vc2Vycy9tYXVyaWNpb21laXJlbGxlcy9tY3AtZWNobyJ9)
+
 1. Clone this repository
 2. Install dependencies:
    ```bash

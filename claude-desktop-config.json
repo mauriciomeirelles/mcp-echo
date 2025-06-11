@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "echo": {
+      "command": "npx",
+      "args": ["-y", "mcp-echo"],
+      "env": {}
+    }
+  }
+} 
